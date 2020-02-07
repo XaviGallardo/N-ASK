@@ -383,7 +383,9 @@ li {
 }
 
 /* ANSWER BOX */
-
+#addAnswer {
+  -webkit-tap-highlight-color: transparent;
+}
 .answer-card {
   margin-top: 30px;
   width: 650px;
