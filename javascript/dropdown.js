@@ -13,7 +13,7 @@ var contactoDatos = document.getElementById('contactoDatos');
 
 console.log('legales', legales);
 
-contacto.onclick = function() {
+contacto.onclick = function () {
   var width = document.documentElement.clientWidth;
 
   if (width <= 768) {
@@ -25,7 +25,7 @@ contacto.onclick = function() {
   }
 };
 
-legal.onclick = function() {
+legal.onclick = function () {
   var width = document.documentElement.clientWidth;
 
   if (width <= 768) {
@@ -37,7 +37,7 @@ legal.onclick = function() {
   }
 };
 
-secciones.onclick = function() {
+secciones.onclick = function () {
   var width = document.documentElement.clientWidth;
   // console.log('Width', width);
 
@@ -50,7 +50,7 @@ secciones.onclick = function() {
   }
 };
 
-code.onclick = function() {
+code.onclick = function () {
   event.preventDefault();
   // console.log('event CODE', event.target);
 
@@ -68,11 +68,4 @@ code.onclick = function() {
   }
 };
 
-// function myFunction(x) {
-//   if (x.matches) {
-//     // If media query matches
-//     document.body.style.backgroundColor = 'yellow';
-//   } else {
-//     document.body.style.backgroundColor = 'pink';
-//   }
-// }
+// NOTA XGZ -> Codigo repetido, mirar para no repetir código
