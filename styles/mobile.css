@@ -1,0 +1,276 @@
+/* .menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #3f3f3f;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+} */
+.show-menu {
+  position: absolute;
+  left: 150px;
+}
+
+.menu-toggle {
+  /* justify-self: end; */
+  /* margin-right: 25px; */
+  /* display: none; */
+  width: 25px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.menu-toggle img {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logo-navbar img {
+  margin-right: 45px;
+  width: 200px;
+}
+
+.menu-lateral-section {
+  background-color: #c6dde3;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  height: 100vh;
+  padding-top: 91px;
+  left: -150px;
+}
+.menu-lateral {
+  width: 150px;
+}
+.menu-lateral-item-text {
+  font-size: 13px;
+}
+
+.submenu.dropdown-content a {
+  font-weight: 300;
+  font-size: 14px;
+  padding: 8px 0px 8px 30px;
+}
+.submenu.dropdown-content {
+  background-color: #c6dde3;
+}
+.submenu.dropdown-content a:hover {
+  background-color: #c6dde3;
+}
+.active {
+  background-color: #c6dde3;
+  border: 0.5px solid #d1d1d1;
+  /* box-shadow: 1px 2px 11px rgba(200, 200, 200, 0.34); */
+}
+.menu-lateral-item:hover {
+  background-color: #c6dde3;
+  border: 0.5px solid #d1d1d1;
+  box-shadow: 1px 2px 11px rgba(200, 200, 200, 0.34);
+}
+
+.calendar {
+  display: none;
+}
+
+.menu-wrapper {
+  display: none;
+}
+.main {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100vw;
+}
+.question {
+  max-width: 100vw;
+}
+
+.question-card {
+  max-width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.answer-card {
+  max-width: 100vw;
+}
+
+/* NAVBAR */
+
+.logo-navbar {
+  width: 100%;
+  text-align: center;
+}
+
+/* QUESTION */
+
+.question-card .date {
+  font-size: 11px;
+}
+.question-title {
+  font-size: 13px;
+  margin-top: 32px;
+}
+
+.question-name {
+  font-size: 13px;
+  padding-left: 15px;
+}
+
+.question-description {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.visualizations,
+.num-answers,
+.likes,
+.dislikes {
+  font-size: 11px;
+}
+
+.options-icon.pagination p {
+  font-size: 15px;
+}
+
+.options-icon.numero-respuestas {
+  position: absolute;
+  margin-left: 10px;
+  /* top: 5px; */
+  /* display: none; */
+  bottom: -30px;
+  height: 10px;
+}
+.num-answers {
+  margin-left: 50px;
+  /* top: 5px; */
+  bottom: -59px;
+  position: absolute;
+}
+
+/* ANSWER  */
+
+.answer-card {
+  margin-top: 50px;
+}
+
+.add-answer-text {
+  font-size: 15px;
+}
+.plus-icon img {
+  height: 17px;
+}
+.answer-author-name {
+  font-size: 15px;
+}
+.answer-text {
+  font-size: 13px;
+  line-height: 1.4;
+}
+.question-card-options > .options {
+  width: 100%;
+}
+
+.options-icon.pagination > img {
+  display: none;
+}
+
+/* MODAL */
+
+.modal {
+  width: 100vw;
+}
+.modal-box {
+  width: 95%;
+  box-shadow: 0px 2px 6px rgba(186, 186, 186, 0.25);
+}
+.modal-text-block textarea {
+  font-size: 12px;
+  width: 90%;
+}
+.btn-send {
+  border: 1.5px solid #a7bec5;
+  font-size: 13px;
+  padding: 10px 20px;
+}
+/* FOOTER */
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column.last-element {
+  order: 99;
+}
+
+.caption-text {
+  margin-bottom: 15px;
+  position: inherit;
+}
+
+.footer-secciones {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.footer-secciones-block:last-child {
+  text-align: left;
+}
+
+.not-show {
+  display: none;
+}
+
+.footer-column,
+.footer-column:last-child {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.footer-column:last-child .menu-column {
+  display: inline;
+}
+.footer-title {
+  position: relative;
+}
+.footer-title:after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 0.5px;
+  background: #5d5d5d;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-title:before {
+  display: block;
+  content: '';
+  width: 20px;
+  height: 17px;
+  padding-right: 5px;
+  background: url('../public/elementos desktop/Vector.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.menu-column li {
+  font-size: 14px;
+}
+
+/* ::after {
+  display: block;
+    content: '';
+   width: 100%;
+   height: 1px;
+   background: black;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+ } */
