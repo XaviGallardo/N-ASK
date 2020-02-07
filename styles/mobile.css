@@ -7,9 +7,24 @@
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 } */
+#body {
+  position: absolute;
+  left: 0px;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
 .show-menu {
   position: absolute;
-  left: 150px;
+  left: 150px !important;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
 }
 
 .menu-toggle {
@@ -99,8 +114,38 @@
 /* NAVBAR */
 
 .logo-navbar {
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
+}
+
+/* BREADCRUMBS */
+
+#breadcrumbs {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 4px rgba(216, 216, 216, 0.25);
+}
+.breadcrumbs a {
+  text-decoration: none;
+  padding-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.breadcrumbs a::after {
+  display: inline-block;
+  content: '>';
+  padding-left: 10px;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.breadcrumbs a:last-child {
+  color: #a7bec5;
+}
+.breadcrumbs a:last-child::after {
+  display: none;
 }
 
 /* QUESTION */
